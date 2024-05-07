@@ -1,4 +1,4 @@
-![image](https://github.com/kehongjie/rsfMRI_CBF/assets/61289103/5098a247-a357-4ad4-b6cc-5be887d9eb9f)# rsfMRI_CBF
+# rsfMRI_CBF
 
 This reprepository has the codes for CBF prediction and statistical analysis in the paper *Predicting cerebral blood flow using voxel-wise resting-state functional MRI*. 
 
