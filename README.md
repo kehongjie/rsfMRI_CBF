@@ -1,2 +1,3 @@
 # rsfMRI_CBF
-Predicting cerebral blood flow using voxel-wise resting-state functional MRI
+
+This reprepository has the codes for CBF prediction and statistical analysis in the paper *Predicting cerebral blood flow using voxel-wise resting-state functional MRI*. 
