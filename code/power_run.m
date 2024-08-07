@@ -58,7 +58,6 @@ for v = 1:length(voxel)
 	
 		t2 = toc;
 		% fprintf('Elapsed time: %.4f seconds\n', t2);
-
 		dlmwrite(out_path, pow_all, 'delimiter', '\t');
 	end
 end
