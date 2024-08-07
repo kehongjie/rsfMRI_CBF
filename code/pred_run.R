@@ -43,15 +43,12 @@ all_ocp <- read.table(paste("/data/brutus_data34/Hongjie/ACP_GM_ocp/",
 all_cbf <- read.table(paste("/data/brutus_data34/Hongjie/ACP_rsTS_by_voxel/", 
                             reg_id[idx_reg], "/", "CBF_subj_voxel.txt", sep=""))
 
-
 ## trainig/testing split
 set.seed(123)
 pos_tr <- sample(1:length(sub_id), floor(0.7*length(sub_id))) ## 70% training and 30 % testing
 all_gamma <- c(0.05,0.1,0.5,1,2,5,10) ## you might want to tune these a bit
 all_cost <- c(0.01,0.1,0.5,1,5,10,20,30,50,100)
 
-
-# i <- 1
 for (i in st:ed) { ## i is index for voxel, 1:length(vox_name)
   if (file.exists(paste(out_path1, vox_name[i], ".RData", sep="")) == FALSE) {
     print(paste(i, "-th voxel", sep=""))
